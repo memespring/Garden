@@ -76,7 +76,7 @@ body.Entry #Content {
 /* ============================================== General Styles & Typography */
 body {
    color: #000;
-	font-family: 'lucida grande','Lucida Sans Unicode', tahoma, sans-serif;
+	font-family: monospace,'lucida grande','Lucida Sans Unicode', tahoma, sans-serif;
 	font-size: 75%;
 	line-height: 1.7em;
    background: #fff;
@@ -668,7 +668,7 @@ body > #Frame > .Head {
    font-weight: bold;
 }
 .SiteTitle {
-   font-family: "helvetica neue", helvetica, arial, sans-serif;
+   font-family: monospace,"helvetica neue", helvetica, arial, sans-serif;
    font-weight: bold;
    font-size: 24px;
    margin-right: 6px;
