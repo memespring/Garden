@@ -120,7 +120,7 @@ body {
 	text-align: right;
 }
 h1, h2, h3, h4, h5, h6 {
-   font-family: "Helvetica Neue",Helvetica,arial,sans-serif;
+   font-family: monospace,"Helvetica Neue",Helvetica,arial,sans-serif;
    font-weight: bold;
    margin: 5px 0;
 }
@@ -162,7 +162,7 @@ input.DateBox,
 input.InputBox,
 input.SmallInput,
 textarea {
-   font-family: 'lucida grande','Lucida Sans Unicode', tahoma, sans-serif;
+   font-family: monospace,'lucida grande','Lucida Sans Unicode', tahoma, sans-serif;
    color: #333;
    font-size: 15px;
    padding: 3px;
