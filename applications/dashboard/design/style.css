@@ -656,7 +656,7 @@ a.Small img {
 
 /* =================================================================== Header */
 #Head {
-   background: #38abe3;
+   background: #000000;
    color: #fff;
 }
 /* Targetting the padding on head in this way b/c it was causing problems in older themes */
