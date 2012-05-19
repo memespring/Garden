@@ -12,7 +12,7 @@
             <ul class="SiteMenu">
                {dashboard_link}
                {discussions_link}
-               {activity_link}
+               <!-- {activity_link} -->
                {inbox_link}
                {custom_menu}
                {profile_link}

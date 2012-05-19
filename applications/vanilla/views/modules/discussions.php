@@ -5,7 +5,7 @@ if (!isset($this->Prefix))
    $this->Prefix = 'Discussion';
 ?>
 <div class="Box BoxDiscussions">
-   <h4><?php echo T('Recent Discussions'); ?></h4>
+   <h4><?php echo T('Recent Posts'); ?></h4>
    <ul class="PanelInfo PanelDiscussions DataList">
       <?php
       foreach ($this->Data('Discussions')->Result() as $Discussion) {

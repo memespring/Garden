@@ -25,6 +25,6 @@ if ($this->DiscussionData->NumRows() > 0 || (isset($this->AnnounceData) && is_ob
    PagerModule::Write($PagerOptions);
 } else {
    ?>
-   <div class="Empty"><?php echo T('No discussions were found.'); ?></div>
+   <div class="Empty"><?php echo T('No posts were found.'); ?></div>
    <?php
 }

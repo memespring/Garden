@@ -12,7 +12,7 @@
      <strong class="SiteTitle"><a href="{link path="/"}">{logo}</a></strong>
      <ul class="SiteMenu">
       {dashboard_link}
-      {discussions_link}
+      <!--{discussions_link}-->
       {activity_link}
       {inbox_link}
       {custom_menu}

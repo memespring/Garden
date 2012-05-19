@@ -107,7 +107,7 @@ class DiscussionsController extends VanillaController {
          if ($Title)
             $this->Title($Title, '');
          else
-            $this->Title(T('Recent Discussions'));
+            $this->Title(T('Recent Posts'));
       }
       if (!$this->Description())
          $this->Description(C('Garden.Description', NULL));
@@ -119,7 +119,7 @@ class DiscussionsController extends VanillaController {
       $this->AddModule('NewDiscussionModule');
       $this->AddModule('CategoriesModule');
       $this->AddModule('BookmarkedModule');
-      $this->SetData('Breadcrumbs', array(array('Name' => T('Recent Discussions'), 'Url' => '/discussions')));
+      $this->SetData('Breadcrumbs', array(array('Name' => T('Recent Posts'), 'Url' => '/discussions')));
       
       
       // Set criteria & get discussions data
